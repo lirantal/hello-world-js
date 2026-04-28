@@ -15,6 +15,9 @@ updates:
       include: "scope"
 
   # Enable version updates for GitHub Actions
+    labels:
+      - "dependencies"
+      - "automerge"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -27,3 +30,6 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
+    labels:
+      - "dependencies"
+      - "automerge"
