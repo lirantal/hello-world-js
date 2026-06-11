@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "hello-world",
   "version": "1.0.0",
   "description": "",
@@ -24,5 +20,9 @@
   "homepage": "https://github.com/lirantal/hello-world-js#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
   }
 }
