@@ -1,0 +1,14 @@
+# Global code owners
+* @lirantal
+
+# Specific file patterns
+*.js @lirantal
+*.json @lirantal
+*.md @lirantal
+*.yml @lirantal
+*.yaml @lirantal
+
+# Security-related files require additional review
+SECURITY.md @lirantal
+.github/workflows/ @lirantal
+.github/dependabot.yml @lirantal
